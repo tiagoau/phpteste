@@ -11,7 +11,7 @@ CREATE TABLE `pessoa` (
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Proprietário de uma conta';
 
-CREATE TABLE `conta_pesssoa` (
+CREATE TABLE `conta_pessoa` (
   `id` int NOT NULL AUTO_INCREMENT,
   `id_pessoa_fk` int NOT NULL,
   `operacao` char(1) NOT NULL,
